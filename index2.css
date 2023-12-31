@@ -1,0 +1,485 @@
+body {
+	background-color: Peru;
+	font-family: Courier New, monospace;
+	margin: 0;
+}
+h1 {
+	font-size: 92px;
+	font-family: Courier New, monospace;
+	text-align: center; 
+	position: relative;
+	color: Bisque;
+	top: -480px;
+}
+
+h2 {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -600px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 92px;
+	font-family: Courier New, monospace;
+	text-align: center; 
+	position: relative;
+	top:  -550px;
+	color: Bisque;
+}
+
+h4 {
+	font-size: 35px;
+	color: WHITE;
+	text-align: center;
+	top: -920px;
+	position: relative;
+	font-family: Playfair Display, sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+
+ul {
+  	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:  transparent;
+  	position: fixed;
+  	top: 0px;
+  	width: 100%;
+  	font-family: Papyrus, fantasy;	
+	z-index: 2;
+	filter: blur(0px);
+}
+
+li {
+  	float: left;
+}
+
+li a {
+  	display: block;
+  	color:  BlanchedAlmond;
+  	text-align: center;
+  	padding: 12px 17px;
+  	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  	background-color: #c9641d;
+	
+}
+
+.h2 {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -3200px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	z-index: 1;
+}
+
+.h3 {
+	font-size: 72px;
+	font-family: Courier New, monospace;
+	text-align: center; 
+	position: relative;
+	top:  -3000px;
+	z-index: 1;
+}
+
+.kfc { 
+	
+  	background: url(logo.jpg) no-repeat center; 
+  	background-size: contain;
+  	height: 600px;
+  	position: relative;
+	top: -680px;
+}
+
+h5.kk {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -640px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(kare.png) no-repeat right; 
+  	background-size: contain;
+  	height: 200px;
+}
+
+h5.poc {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -870px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(pochero.png) no-repeat right; 
+  	background-size: contain;
+  	height: 200px;
+}
+
+h5.ado {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -1080px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(adobo.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+h5.ss {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -1280px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(sisig.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+.backgroundlogo {
+  	background: url(bglogo.jpg) no-repeat center; 
+	filter: blur(4px);
+  	background-size: cover;
+  	height: 700px;
+  	position: relative;
+}
+
+/* Recipes */ 
+
+p.karekare {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -840px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+p.pochero {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -1071px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+
+p.adobo {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -1300px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+p.sisig {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -1495px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+
+.bgrec {
+ 	background: url(bg.png) no-repeat center; 
+  	background-size: cover;
+  	height: 1800px;
+  	position: relative;
+	top: -3320px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px);	
+}
+
+/* Drinks */
+
+.inumin {
+ 	background: url(drink.png) no-repeat center; 
+  	background-size: cover;
+  	height: 1000px;
+  	position: relative;
+	top: -4772px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px) brightness(50%);
+}
+
+h5.bj {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -3200px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(bj.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+p.buko {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -3400px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.sg {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -3400px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(gulaman.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+p.sago {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -3600px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.it {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -3600px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(it.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+p.tea {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -3800px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* end of drinks  */
+ 
+/* Desserts  */
+
+.des {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -4720px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	z-index: 1;
+}
+
+.des2 {
+ 	background: url(des.png) no-repeat center; 
+  	background-size: cover;
+  	height: 850px;
+  	position: relative;
+	top: -6169px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px) brightness(50%);
+}
+
+h5.hh {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -4750px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(hh.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+
+p.halo {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -4940px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.lf {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -4950px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(lf.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+
+p.leche {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -5140px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.bp {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -5150px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(bp.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+
+p.bpandan {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -5340px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* end of desserts  */
+
+/* appetizers */
+
+.appetizer {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -6100px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	z-index: 1;
+}
+
+.appetizer2 {
+ 	background: url(ap.png) no-repeat center; 
+  	background-size: cover;
+  	height: 1000px;
+  	position: relative;
+	top: -7677px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px) brightness(50%);
+}
+
+h5.ls {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -6100px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(shanghai.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+
+p.shanghai {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -6300px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.emp {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -6300px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(emp.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+
+p.empanada {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -6500px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+h5.chi {
+	font-family: Courier New, monospace;
+	position: relative;
+	top: -6500px;
+	font-size: 48px;
+	color: BlanchedAlmond;
+	background: url(chi.png) no-repeat right; 
+  	background-size: contain;
+  	height: 230px;
+}
+
+p.chicharon {
+	color: BlanchedAlmond;
+	position: relative;
+	top: -6700px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+/* end of appetizers  */
+
+/* email */
+p.addem {
+	font-family: Courier New, monospace;
+	font-size: 32px;
+	color: BlanchedAlmond;
+	text-align: center;
+	position: relative;
+	top: -7720px;
+	background-color: saddlebrown;
+}
+
+.awit {
+	text-decoration: none;
+}
+
+.awit:link {
+	color:SandyBrown;
+}
+.awit:hover {
+	color:White;
+}

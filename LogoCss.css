@@ -1,0 +1,65 @@
+body {
+	background-color: Peru;
+}
+.kfc { 
+  	background: url(logo.jpg) no-repeat center; 
+  	background-size: contain;
+  	height: 600px;
+  	position: relative;
+	top: -780px;
+}
+.backgroundlogo {
+  	background: url(bglogo.jpg) no-repeat center; 
+	filter: blur(4px);
+  	background-size: cover;
+  	height: 800px;
+  	position: relative;
+}
+h4 {
+	font-size: 35px;
+	color: BlanchedAlmond;
+	text-align: center;
+	top: -820px;
+	position: relative;
+	font-family: Sora, sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+nav {
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:  transparent;
+  	position: fixed;
+  	top: 13px;
+  	width: 100%;
+  	font-family: Papyrus, fantasy;	
+	z-index: 2;
+	font-size: 20px;
+	
+}
+nav a {
+  	display: inline;
+  	color:  BlanchedAlmond;
+  	padding: 10px 20px;
+  	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: Peru;
+}
+@keyframes weng {
+	0% {color: White;}
+	25% {color: NavajoWhite;}
+	50% {color: SandyBrown;}
+	75% {color: NavajoWhite}
+	100% {color: White;}
+}
+#ani {
+	animation-name: weng;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;	
+	color: BlanchedAlmond;
+}

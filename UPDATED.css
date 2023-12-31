@@ -1,0 +1,54 @@
+h4 {
+	font-size: 35px;
+	color: #FFFF;
+	text-align: center;
+	top: -760px;
+	position: relative;
+	font-family: Sora, sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+body {
+	background-color: Peru;
+	font-family: Courier New, monospace;
+	margin: 0;
+}nav {
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:  transparent;
+  	position: fixed;
+  	top: 13px;
+  	width: 100%;
+  	font-family: Papyrus, fantasy;	
+	z-index: 2;
+	font-size: 20px;
+	
+}
+nav a {
+  	display: inline;
+  	color:  BlanchedAlmond;
+  	padding: 10px 20px;
+  	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: Peru;
+}
+.backgroundlogo {
+	background: url(bglogo.jpg) no-repeat
+	center;
+	filter: blur(4px);
+	background-size: cover;
+	height: 700px;
+	position: relative;
+}
+.kfc {
+	background: url(logo.jpg) no-repeat center; 
+	background-size: contain;
+	height: 600px;
+	position: relative;
+	top: -700px;
+}

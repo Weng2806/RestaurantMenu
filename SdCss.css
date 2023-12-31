@@ -1,0 +1,225 @@
+body {
+	background-color: Peru;
+	font-family: Courier New, monospace;
+	margin: -1px;
+}
+h2 {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: 50px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	font-weight: 900;
+}
+nav {
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:  transparent;
+  	position: fixed;
+  	top: 13px;
+  	width: 100%;
+  	font-family: Papyrus, fantasy;	
+	z-index: 2;
+	font-size: 20px;
+	
+}
+nav a {
+  	display: inline;
+  	color:  BlanchedAlmond;
+  	padding: 10px 20px;
+  	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: Peru;
+}
+.inumin {
+ 	background: url(drink.png) no-repeat center; 
+  	height: 950px;
+  	position: relative;
+	top: -1500px;	
+	filter: blur(3px) brightness(50%);
+	z-index: -1;
+}
+
+.bj, .sg, .it{
+	font-family: Courier New, monospace;
+	position: relative;
+	font-size: 48px;
+	color: BlanchedAlmond;
+}
+.bj { 	
+	top: 50px;
+	background: url(bj.png) no-repeat right; 
+	background-size: contain;
+  	height: 220px;
+}
+.sg {
+	top: -150px;
+	background: url(gulaman.png) no-repeat right; 
+  	height: 220px;
+	background-size: contain;
+}
+.it {
+	top: -360px;
+	background: url(it.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+}
+.buko, .sago, .tea{
+	color: BlanchedAlmond;
+	position: relative;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+.buko {
+	top: -160px;
+}
+
+.sago {
+	top: -360px;
+	
+}
+.tea {
+	top: -570px;
+}
+ 
+/* Desserts  */
+
+.des {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -1450px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	z-index: 1;
+}
+
+.des2 {
+ 	background: url(des.png) no-repeat center; 
+  	background-size: cover;
+  	height: 900px;
+  	position: relative;
+	top: -2896px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px) brightness(50%);
+}
+
+.hh, .lf, .bp, .hh {
+	font-family: Courier New, monospace;
+	position: relative;
+	font-size: 48px;
+	color: BlanchedAlmond;
+}
+.lf {
+	top: -1650px;
+	background: url(lf.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+.bp {
+	top: -1870px;
+	background: url(bp.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+.hh {
+	top: -1440px;
+	background: url(hh.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+	
+}
+
+.halo, .leche, .bpandan{
+	color: BlanchedAlmond;
+	position: relative;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+.halo {
+	top: -1640px;
+}
+.leche {
+	top: -1850px;
+}
+.bpandan {
+	top: -2067px;
+}
+
+
+/* appetizers */
+
+.appetizer {
+	text-align: center;
+	color: BlanchedAlmond;
+	position: relative;
+	top: -2850px;
+	font-size: 50px;
+	font-family: Courier New, monospace;
+	z-index: 1;
+}
+
+.appetizer2 {
+ 	background: url(ap.png) no-repeat center; 
+  	background-size: cover;
+  	height: 1000px;
+  	position: relative;
+	top: -4403px;
+	z-index: -1;
+	opacity: 0.5;	
+	filter: blur(3px) brightness(50%);
+}
+
+.ls, .emp, .chi {
+	font-family: Courier New, monospace;
+	position: relative;
+	font-size: 48px;
+	color: BlanchedAlmond;
+}
+.emp {
+	top: -3290px;
+	background: url(emp.png) no-repeat right; 
+  	background-size: contain;
+  	height: 210px;
+}
+.chi {
+	top: -3500px;
+	background: url(chi.png) no-repeat right; 
+  	background-size: contain;
+  	height: 230px;
+}
+.ls {
+	background: url(shanghai.png) no-repeat right; 
+  	background-size: contain;
+  	height: 220px;
+	top: -2320px;
+}
+.shanghai, .empanada, .chicharon {
+	color: BlanchedAlmond;
+	position: relative;
+	top: 0px;
+	font-family: Courier New, monospace;
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: bold;
+}
+.shanghai {
+	top: -2520px;
+}
+.empanada {
+	top: -3490px;
+}
+.chicharon {
+	top: -3700px;
+}
+/* end of appetizers  */
